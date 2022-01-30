@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en"
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewpoint" content="width=device-width initial-scale=1.0">
+    <meta http-equiv="X-UA-compatibible" content="IE-edge">
+    <title>Registration Form</title>
+    <style>
+        body{background-color: rgb(164, 160, 185);}
+        h1{color: rgb(39, 9, 30); font-family: 'Courier New', Courier, monospace;text-align: center;}
+        h2{color: blue;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+        h4{color: black;text-align: center;}
+        p{color: rgb(32, 39, 14); font-style: normal;}
+    </style>
+
+</head>
+<body>
+<h1>"Welcome to My Webpage"</h1> 
+<a href="Others/About.html">Take me to About page..</a>
+<br>
+<a href="Others/Contact.html">Take me to Contact page</a>
+<br>
+<a href="Others/Blog.html">Take me to Blog page</a>
+<br><br>
+
+<form>
+    <Label for="FName">First-Name:</Label>
+    <input type="text" id="FName" name="First-Name">
+    <br><br>
+    <Label for="LName">Last-Name:</Label>
+    <input type="text" id="LName" name="Last-Name">
+    <br><br>
+    <Label for="Email">Email-Adress:</Label>
+    <input type="email" id="Email" name="Email-Adress" placeholder="xyz@email.com">
+    <br><br>
+    <Label for="Pass">Password:</Label>
+    <input type="password" id="Pass" name="Pass"required>
+    <br>
+    <Label for="GName">Male:</Label>
+    <input type="radio" id="GName" name="Caption 1">
+
+    <Label for="GName">Female:</Label>
+    <input type="radio" id="GName" name="Caption 1">
+    
+    <Label for="GName">Others:</Label>
+    <input type="radio" id="GName" name="Caption 1">
+    <br>
+    <label for="F-Food">Favorite-Foods:</label>
+    <select id="F-Foods"  name="F-Foods" size="3" multiple>
+        
+        <option value="Beans">Beans</option>
+        <option value="Rice">Rice</option>
+        <option value="Spaghetti">Spaghetti</option>
+        <option value="Soup">Soup</option>
+        <option value="Pizza">Pizza</option>
+       
+    </select>
+    <br>
+
+        <label for="Cert">Certificate:</label>
+        <select id="Cert" name="Certificate">
+            <option value="F">FSLC</option>
+            <option value="O">O'Level</option>
+            <option value="B">BSC</option>
+        </select>
+    <br>
+    <label for="Num">Phone Numeber:</label>
+    <input type="number" id="Num" name="Phone Number">
+    <br>
+    <textarea>My name is "Francis Ekene Chinemere", I hailed from Imo state.Programimg had opened my eyes to the world, ever since i was young; had want to know how computer works and the feedback we received when input is key in.<br>I appreciate Capacity bay and all the Faculity tuitors for the work been put out to make we the newbies a better programmers</textarea>
+    <br>
+    <input type="Submit" name="Submit" >    
+</form>
+</body>
+</html>
